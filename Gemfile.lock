@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    xcpretty-travis-formatter-security-patched (1.0.1)
-      xcpretty-security-patched (~> 0.3.1, >= 0.3.1)
+    xcpretty-travis-formatter-security-patched (1.0.2)
+      xcpretty-security-patched (~> 0.3.2, >= 0.3.2)
 
 GEM
   remote: https://rubygems.org/
@@ -10,7 +10,7 @@ GEM
     bacon (1.2.0)
     rake (10.3.2)
     rouge (3.28.0)
-    xcpretty-security-patched (0.3.1)
+    xcpretty-security-patched (0.3.2)
       rouge (~> 3.28.0)
 
 PLATFORMS

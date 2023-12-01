@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "xcpretty-travis-formatter-security-patched"
-  spec.version       = "1.0.2"
+  spec.version       = "1.0.3"
   spec.authors       = ["Delisa Mason", "Sha Senevirathne"]
   spec.email         = ["iskanamagus@gmail.com", "shanaka36@gmail.com"]
   spec.description   =
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   	"bin/xcpretty-travis-formatter"]
   spec.executables   = ["xcpretty-travis-formatter"]
   spec.require_paths = ["lib"]
-  spec.add_dependency "xcpretty-security-patched", "~> 0.3.1", ">= 0.3.1"
+  spec.add_dependency "xcpretty-security-patched", "~> 0.3.2", ">= 0.3.2"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
