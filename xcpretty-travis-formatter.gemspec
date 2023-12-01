@@ -1,16 +1,16 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "xcpretty-travis-formatter"
+  spec.name          = "xcpretty-travis-formatter-security-patched"
   spec.version       = "1.0.1"
-  spec.authors       = ["Delisa Mason"]
-  spec.email         = ["iskanamagus@gmail.com"]
+  spec.authors       = ["Delisa Mason", "Sha Senevirathne"]
+  spec.email         = ["iskanamagus@gmail.com", "shanaka36@gmail.com"]
   spec.description   =
   %q{
   Formatter for xcpretty customized to provide pretty output on TravisCI
   }
   spec.summary       = %q{xcpretty custom formatter for TravisCI}
-  spec.homepage      = "https://github.com/kattrali/xcpretty-travis-formatter"
+  spec.homepage      = "https://github.com/hdsenevi/xcpretty-travis-formatter-security-patched"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.0"
   spec.files         = [
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
   	"bin/xcpretty-travis-formatter"]
   spec.executables   = ["xcpretty-travis-formatter"]
   spec.require_paths = ["lib"]
-  spec.add_dependency "xcpretty", "~> 0.2", ">= 0.0.7"
+  spec.add_dependency "xcpretty-security-patched", "~> 0.3.1", ">= 0.3.1"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
